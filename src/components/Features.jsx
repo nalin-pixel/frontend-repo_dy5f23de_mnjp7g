@@ -5,17 +5,17 @@ const features = [
   {
     icon: Link,
     title: 'Rekalink',
-    desc: 'Create and customize your personal bio link.',
+    desc: 'Buat dan kustomisasi bio link kamu dengan mudah.',
   },
   {
     icon: FileText,
     title: 'Rekaform',
-    desc: 'Collect data easily with smart forms.',
+    desc: 'Kumpulkan data dengan formulir pintar yang bisa diandalkan.',
   },
   {
     icon: Ticket,
     title: 'Rekaevent',
-    desc: 'Manage events, sell tickets, and track attendees.',
+    desc: 'Kelola event, jual tiket, dan pantau peserta.',
   },
 ];
 
@@ -25,10 +25,10 @@ export default function Features() {
       <div className="mx-auto max-w-6xl px-6">
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-gray-900">
-            Everything you need to manage your digital presence.
+            Semua yang kamu butuhkan, dalam satu platform.
           </h2>
           <p className="mt-4 text-gray-600">
-            Three powerful tools, one unified platform.
+            Tiga produk kuat yang terintegrasi rapi.
           </p>
         </div>
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -36,15 +36,15 @@ export default function Features() {
             <motion.div
               key={title}
               whileHover={{ y: -4 }}
-              className="rounded-xl border border-teal-100 bg-white/80 p-6 shadow-sm hover:shadow-md transition-shadow"
+              className="rounded-xl border border-[#1aaad6]/20 bg-white/80 p-6 shadow-sm hover:shadow-md transition-shadow"
             >
-              <div className="h-12 w-12 rounded-lg bg-[#1BBFBA]/10 text-[#1BBFBA] grid place-items-center">
+              <div className="h-12 w-12 rounded-lg bg-[#1aaad6]/10 text-[#1aaad6] grid place-items-center">
                 <Icon className="h-6 w-6" />
               </div>
               <h3 className="mt-4 text-xl font-semibold text-gray-900">{title}</h3>
               <p className="mt-2 text-gray-600">{desc}</p>
-              <a href="#get-started" className="mt-4 inline-block text-[#1BBFBA] font-medium hover:underline">
-                Learn more →
+              <a href="#get-started" className="mt-4 inline-block text-[#1aaad6] font-medium hover:underline">
+                Pelajari lebih lanjut →
               </a>
             </motion.div>
           ))}
